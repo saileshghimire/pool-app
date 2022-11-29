@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: auto;
+    padding: 25px;
+    background-color: greenyellow;
+}
+
+.nav{
+    text-align: center;
+    padding-top: 20px;
+    color: blue;
+    font-size:x-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.symbols{
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    display: flex;
+    
+}
+
+.symbols .symbol-congress{
+    margin-right: 20px;
+    cursor: pointer;
+    margin-left:20px;
+    
+}
+
+.symbols .symbol-UML{
+    margin-right: 20px;
+    cursor: pointer;
+    margin-left:20px;
+}
+.symbols .symbol-Maiost{
+    margin-right: 20px;
+    cursor: pointer;
+    margin-left:20px;
+}
+.symbols .symbol-raprapa{
+    margin-right: 20px;
+    cursor: pointer;
+    margin-left:20px;
+}
+.symbols-2{
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    display: flex;
+    
+}
+
+.symbol-samajwaad-uml{
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-left:20px;
+}
+
+.symbol-sotantra{
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-left:20px;
+}

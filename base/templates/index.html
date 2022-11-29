@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pool App</title>
+   <link rel="stylesheet" href={% static 'style.css' %}>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav">
+           POOL APP  
+        </div>
+    </div> 
+    <br>
+    <form action="" method="post">
+        {% csrf_token %}
+    <div class="symbols">
+        
+        
+        <div class="symbol-congress">
+            <input type="image" alt="submit" name="congress" src={% static 'congress.jpg' %} height ="300" width="300">
+        </div>
+        <div class="symbol-UML">
+            <input type="image" alt="submit" name="UML" src={% static 'UML.png' %} height ="300" width="300">
+        </div>
+        <div class="symbol-Maiost">
+            <input type="image" alt="submit" name="Maiost" src={% static 'Maiost.png' %} height ="300" width="300">
+        </div>
+        <div class="symbol-raprapa">
+            <input type="image" alt="submit" name="raprapa" src={% static 'raprapa.png' %} height ="300" width="300" />
+        </div>
+    </div>
+    <div class="symbols-2">
+        <div class="symbol-samajwaad-uml">
+            <input type="image" alt="submit" name="samajwaad-uml" src={% static 'samajwaad-uml.png' %} height ="300" width="300">
+        </div>
+        <div class="symbol-sotantra">
+            <input type="image" name="sotantra" src={% static 'sotantra.png' %} height ="300" width="300" alt="submit">
+        </div>
+   
+    </div>
+</form>
+</body>
+</html>
